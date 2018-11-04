@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Sortable</title>
+		<meta name="description" content="sortable">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"/>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<p>Posts</p>
+		<table id="sortable">
+			<tbody id="body-1">
+				<tr id="post-1">
+					<td>Post 1</td>
+				</tr>
+			</tbody>
+			<tbody id="body-2">
+				<tr id="post-2">
+					<td>Post 2</td>
+				</tr>
+			</tbody>
+			<tbody id="body-3" data-group="group">
+				<tr>
+					<td>Group 1 - Header</td>
+				</tr>
+				<tr id="post-3" class="hidden">
+					<td>Group 1 - Post3</td>
+				</tr>
+				<tr id="post-4" class="hidden">
+					<td>Group 1 - Post4</td>
+				</tr>
+				<tr id="post-5" class="hidden">
+					<td>Group 1 - Post5</td>
+				</tr>
+			</tbody>
+			<tbody id="body-4">
+				<tr id="post-6">
+					<td>Post 6</td>
+				</tr>
+			</tbody>
+			<tbody id="body-5" data-group="group">
+				<tr>
+					<td>Group 2 - Header</td>
+				</tr>
+				<tr id="post-7" class="hidden">
+					<td>Group 2 - Post7</td>
+				</tr>
+				<tr id="post-8" class="hidden">
+					<td>Group 2 - Post8</td>
+				</tr>
+				<tr id="post-9" class="hidden">
+					<td>Group 2 - Post9</td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
